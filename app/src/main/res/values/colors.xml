@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FF000000</color>
+    <color name="colorPrimaryDark">#FF000000</color>
+    <color name="colorAccent">#FF000000</color>
+    <color name="transparent">#0fff</color>
+
+    <color name="purple_200">#FF000000</color>
+    <color name="purple_500">#FF000000</color>
+    <color name="purple_700">#FF000000</color>
+    <color name="teal_200">#FF000000</color>
+    <color name="teal_700">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="grey">#EEEDE7</color>
+    <color name="white">#ffffff</color>
+</resources>

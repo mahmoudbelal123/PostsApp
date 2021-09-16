@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">عرض المنشورات</string>
+    <string name="error_no_result">لا يوجد منشورات الان</string>
+    <string name="hint_enter_size_list">أدخل عدد المنشورات</string>
+    <string name="send">ارسال</string>
+    <string name="error_internet_connection">خطأ الاتصال بالانترنت</string>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/postFragment">
+
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.mahmoud.belal.postsapp.ui.PostFragment"
+        android:label="Post"
+        tools:layout="@layout/fragment_post">
+        <action
+            android:id="@+id/action_PostFragment_to_PostDetailsFragment"
+            app:destination="@id/postDetailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right">
+
+            <argument
+                android:name="post"
+                app:argType="com.mahmoud.belal.postsapp.data.model.Post"
+                app:nullable="false" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/postDetailsFragment"
+        android:name="com.mahmoud.belal.postsapp.ui.postdetails.PostDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_post_details">
+
+        <argument
+            android:name="post"
+            app:argType="com.mahmoud.belal.postsapp.data.model.Post"
+            app:nullable="false" />
+    </fragment>
+
+</navigation>

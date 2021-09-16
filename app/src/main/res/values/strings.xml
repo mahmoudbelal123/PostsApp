@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Posts App</string>
+    <string name="error_no_result">not result found</string>
+    <string name="hint_enter_size_list">Enter your list size</string>
+    <string name="send">Send</string>
+    <string name="error_internet_connection">Internet Connection Error</string>
+</resources>
