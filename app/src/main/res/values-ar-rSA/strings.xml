@@ -3,7 +3,11 @@
     <string name="app_name">عرض المنشورات</string>
     <string name="error_no_result">لا يوجد منشورات الان</string>
     <string name="hint_enter_size_list">أدخل عدد المنشورات</string>
-    <string name="send">ارسال</string>
+    <string name="get_list">اعرض القائمة</string>
     <string name="error_internet_connection">خطأ الاتصال بالانترنت</string>
+    <string name="cancel">إالغاء</string>
+    <string name="update">تحديث</string>
+    <string name="remote_config_error">حدث خطأ أثناء تنفيذ التحديثات الخارجية</string>
+    <string name="update_message_details">يوجد إصدار جديد من التطبيق علي المتجر</string>
 
 </resources>

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mahmoud.belal.postsapp">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".application.CustomApplication"
         android:allowBackup="true"
@@ -19,8 +21,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-    </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    </application>
 
 </manifest>

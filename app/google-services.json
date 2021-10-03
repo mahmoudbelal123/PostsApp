@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "474828758138",
+    "project_id": "posts-app-30d42",
+    "storage_bucket": "posts-app-30d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474828758138:android:767cf6aeb479c728cb2fc3",
+        "android_client_info": {
+          "package_name": "com.mahmoud.belal.postsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474828758138-2viovba1rs6tf4adel5pafpgm9i712o7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuwluvUKQiDpGyo0QWFu9ZMUcUx6G8opk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474828758138-2viovba1rs6tf4adel5pafpgm9i712o7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
