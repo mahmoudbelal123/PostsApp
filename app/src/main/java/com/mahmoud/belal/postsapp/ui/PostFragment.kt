@@ -146,7 +146,6 @@ class PostFragment : Fragment(R.layout.fragment_post),
 
     }
 
-
     private fun applyWhenRemoteConfigSuccess() {
          remoteListSize = mFirebaseRemoteConfig.getString(KEY_LIST_SIZE)
         edit_list_size.setText("" + remoteListSize)
