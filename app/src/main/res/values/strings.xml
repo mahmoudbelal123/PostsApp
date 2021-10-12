@@ -2,6 +2,10 @@
     <string name="app_name">Posts App</string>
     <string name="error_no_result">not result found</string>
     <string name="hint_enter_size_list">Enter your list size</string>
-    <string name="send">Send</string>
+    <string name="get_list">Get</string>
     <string name="error_internet_connection">Internet Connection Error</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="remote_config_error">error while fetch the remote changes</string>
+    <string name="update_message_details">there is a new version on google play store</string>
 </resources>

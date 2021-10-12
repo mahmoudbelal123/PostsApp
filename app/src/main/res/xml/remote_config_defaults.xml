@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>app_latest_version</key>
+        <value>1000</value>
+    </entry>
+
+    <entry>
+        <key>list_size</key>
+        <value>20</value>
+    </entry>
+
+    <entry>
+        <key>message</key>
+        <value>send</value>
+    </entry>
+
+</defaultsMap>
