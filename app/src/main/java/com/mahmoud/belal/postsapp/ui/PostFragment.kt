@@ -1,5 +1,6 @@
 package com.mahmoud.belal.postsapp.ui
 
+import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -8,6 +9,8 @@ import androidx.fragment.app.activityViewModels
 import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.firebase.crashlytics.ktx.crashlytics
+import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 import com.mahmoud.belal.postsapp.BuildConfig
@@ -100,6 +103,10 @@ class PostFragment : Fragment(R.layout.fragment_post),
                         getString(R.string.error_internet_connection),
                         "${result.exception}"
                     )
+                    Firebase.crashlytics.recordException(result.exception)
+                    Firebase.crashlytics.log(requireActivity().packageResourcePath +" "+ result.exception.message!!)
+                    Firebase.crashlytics.setUserId(Build.DEVICE)
+
                 }
             }
         })
@@ -147,7 +154,7 @@ class PostFragment : Fragment(R.layout.fragment_post),
     }
 
     private fun applyWhenRemoteConfigSuccess() {
-         remoteListSize = mFirebaseRemoteConfig.getString(KEY_LIST_SIZE)
+        remoteListSize = mFirebaseRemoteConfig.getString(KEY_LIST_SIZE)
         edit_list_size.setText("" + remoteListSize)
 
         remoteButtonText = mFirebaseRemoteConfig.getString(KEY_BUTTON_MESSAGE)
@@ -160,6 +167,5 @@ class PostFragment : Fragment(R.layout.fragment_post),
                 getString(R.string.update_message_details)
             )
         }
-
     }
 }
