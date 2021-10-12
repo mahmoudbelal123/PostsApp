@@ -65,7 +65,7 @@
                 android:layout_margin="@dimen/small_margin"
                 android:gravity="center"
                 android:inputType="number"
-                android:text="@string/send"
+                android:text="@string/get_list"
                 android:textColor="@color/white" />
 
         </LinearLayout>

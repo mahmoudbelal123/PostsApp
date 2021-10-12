@@ -26,7 +26,7 @@ data class PostsList(
     val code: Int = 0
 )
 
-@Entity(tableName = "postTable" , indices = [Index(value = ["title"], unique = true)])
+@Entity(tableName = "postTable", indices = [Index(value = ["title"], unique = true)])
 data class PostEntity(
     @PrimaryKey(autoGenerate = true)
     val postId: Long,
